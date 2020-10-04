@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Camera.qml</file>
+        <file>camera1.png</file>
+        <file>camera.png</file>
+        <file>HButton.qml</file>
+    </qresource>
+</RCC>
