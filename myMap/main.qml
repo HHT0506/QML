@@ -53,16 +53,8 @@ Rectangle {
                 text:"119.5284"
             }
         }
-        HButton{
-            text:"定位"
-                onClicked:{
-                    console.log("clicked")
-                    qmlPlane.coordinate=QtPositioning.coordinate(input_longitude.text, input_latitude.text)//设置相机的经纬度坐标
-                    map.center=qmlPlane.coordinate//地图视图的中心为相机位置
-                    map.zoomLevel=15//缩放等级
-                }
-        }
-     }
+
+    }
 
     //经纬度
     Row{
